@@ -1,0 +1,38 @@
+.visited-list-Item {
+  width: 28%;
+  max-width: 200px;
+  margin-right: 9px;
+  margin-bottom: 18px;
+  background-color: #1f1f2f;
+}
+.flag-logo {
+  width: 100%;
+  margin: 0px;
+}
+.flag-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.country {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.remove-btn {
+  border: 1px solid #334155;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 3px;
+  font-size: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}

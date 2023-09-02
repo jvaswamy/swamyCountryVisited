@@ -1,0 +1,40 @@
+.country-container {
+  background-color: #161624;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.country-responsive-container {
+  width: 90%;
+}
+.heading {
+  color: #f8fafc;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.countries-list {
+  height: 300px;
+  background-color: #1f1f2f;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  list-style-type: none;
+  padding-left: 0px;
+  overflow-y: scroll;
+}
+.visited-contry-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.no-contries-container {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-text {
+  color: #ffffff;
+}
